@@ -102,7 +102,7 @@ def update_game(letter):
 st.markdown('<div class="main-container">', unsafe_allow_html=True)
 
 # Title with Emoji
-st.markdown('<h1 class="title">🎮 Play Hangman with Colors 🎨</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">✨ Hangman (Word Game) 🎨</h1>', unsafe_allow_html=True)
 
 # Display word
 display_word = ' '.join([c if c in st.session_state.game['guessed'] else '_' for c in st.session_state.game['word'].upper()])
